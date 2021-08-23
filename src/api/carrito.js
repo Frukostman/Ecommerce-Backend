@@ -1,6 +1,6 @@
 class Carrito {
   idCarrito = 0
-  timestamp 
+  timestamp
 
   //seteo una lista de Carrito vacia
     constructor() {
