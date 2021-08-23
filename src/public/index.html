@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product loading form</title>
+</head>
+
+<body>
+
+    <h2>Load Products</h2>
+    <form autocomplete="off" action="/api/productos/agregar" method="POST">
+        Nombre: <input type="text" name="nombre">
+        Descripcion: <input type="text" name="descripcion">
+        Codigo: <input type="number" name="codigo">
+        Foto URL: <input type="text" name="foto">
+        Precio: <input type="number" name="precio">
+        Stock: <input type="number" name="stock">
+        <button>SEND</button>
+    </form>
+
+    <h2>Cart</h2>
+    <form autocomplete="off" action="/api/carrito/agregar" method="POST">
+        Nombre: <input type="text" name="nombre">
+        Descripcion: <input type="text" name="descripcion">
+        Codigo: <input type="number" name="codigo">
+        Foto URL: <input type="text" name="foto">
+        Precio: <input type="number" name="precio">
+        Stock: <input type="number" name="stock">
+        <button>BUY</button>
+    </form>
+
+</body>
+
+</html>
